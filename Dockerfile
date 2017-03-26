@@ -1,5 +1,3 @@
-FROM odinizludei/bearly:build 0.3
-
 USER root
 
 RUN yum install -y node.js
