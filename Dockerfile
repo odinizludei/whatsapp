@@ -1,4 +1,4 @@
-FROM odinizludei/bearly
+FROM odinizludei/bearly:build 0.3
 
 USER root
 
