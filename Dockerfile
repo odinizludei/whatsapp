@@ -1,4 +1,4 @@
-FROM odinizludei/bearly
+FROM odinizludei/bearly:beta
 MAINTAINER V.K
 
 USER root
