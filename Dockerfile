@@ -1,4 +1,4 @@
-FROM odinizludei/bearly:intial
+FROM odinizludei/bearly
 
 USER root
 
