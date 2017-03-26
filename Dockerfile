@@ -1,9 +1,10 @@
 FROM odinizludei/bearly
+MAINTAINER V.K
 
 USER root
 
 RUN yum install -y node.js
-RUN yum install -y mongo
+RUN yum install -y mongodb
 RUN yum install -y meteor
 RUN npm install -g ionic cordova
 RUN npm install 
