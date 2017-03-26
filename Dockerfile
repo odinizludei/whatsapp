@@ -1,3 +1,5 @@
+FROM odinizludei/bearly:intial
+
 USER root
 
 RUN yum install -y node.js
