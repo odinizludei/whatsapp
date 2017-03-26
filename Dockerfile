@@ -1,4 +1,4 @@
-FROM odinizludei/whatsapp
+FROM odinizludei/bearly
 
 USER root
 
