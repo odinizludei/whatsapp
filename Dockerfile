@@ -1,4 +1,4 @@
-FROM node:4-onbuild
+FROM node:7
 MAINTAINER V.K
 
 USER root
