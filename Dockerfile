@@ -15,5 +15,6 @@ RUN ionic plugin add cordova-plugin-image-picker
 RUN ionic plugin add cordova-plugin-sim 
 RUN ionic plugin add cordova-plugin-camera
 RUN npm run meteor-client:bundle 
+RUN ionic serve
 
 EXPOSE 8888
