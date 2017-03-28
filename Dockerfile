@@ -3,10 +3,9 @@ MAINTAINER V.K
 
 USER root
 
-RUN yum install -y node.js
-RUN yum install -y mongodb
+RUN apt-get install -y mongodb
 RUN curl https://install.meteor.com/ | sh
-RUN yum install npm
+RUN apt-get install npm
 RUN npm install -g ionic 
 RUN npm install -g cordova
 RUN npm install -g angular
