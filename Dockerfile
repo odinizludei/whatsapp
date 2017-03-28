@@ -9,7 +9,7 @@ RUN curl https://install.meteor.com/ | sh
 RUN yum install npm
 RUN npm install -g ionic 
 RUN npm install -g cordova
-RUN npm install -g @angular
+RUN npm install -g angular
 RUN npm install 
 RUN meteor npm install —save sharp 
 RUN ionic plugin add cordova-plugin-image-picker 
