@@ -3,7 +3,6 @@ MAINTAINER V.K
 
 USER root
 
-RUN apt-get install mongodb
 RUN curl https://install.meteor.com/ | sh
 RUN apt-get install npm
 RUN npm install -g ionic 
