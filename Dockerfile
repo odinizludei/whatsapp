@@ -5,7 +5,8 @@ USER root
 
 RUN yum install -y node.js
 RUN yum install -y mongodb
-RUN yum install -y meteor
+RUN curl https://install.meteor.com/ | sh
+RUN yum install npm
 RUN npm install -g ionic cordova
 RUN npm install 
 RUN meteor npm install —save sharp 
